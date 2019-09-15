@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfProjectInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectInfo>
+    <Identity>
+      <Id>38789512BB614390B81AF9707AF0B56D</Id>
+      <Version>8</Version>
+      <Name>UBS POC</Name>
+    </Identity>
+    <Category>
+      <Id>C2C47012910F4DC395EDAB69FA22656D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name />
+    </Category>
+    <Name>UBS POC</Name>
+    <Description />
+    <Status>Released</Status>
+    <LastModifiedProjectFile>2018-11-12T15:23:33.127</LastModifiedProjectFile>
+    <LastModifiedProjectFolderZip>2018-11-12T15:23:33.127</LastModifiedProjectFolderZip>
+    <LastModifiedUser>
+      <Id>29F17835C57F4E8C82633062745A977D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name />
+      <ResourceType>Worker</ResourceType>
+      <EmailAddress />
+      <UserId />
+    </LastModifiedUser>
+    <OnlineLearningFolderId>07996CB340CF4B74B7EDA94B00189A0B</OnlineLearningFolderId>
+    <ProjectType>Shared</ProjectType>
+    <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
+    <IsSeparationEnabled>false</IsSeparationEnabled>
+    <LockedByModule>None</LockedByModule>
+    <IsSimpleProject>false</IsSimpleProject>
+    <TrainingSetPath />
+    <UsedLicenseFeatures>None</UsedLicenseFeatures>
+    <ConfigurationSet>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;ConfigSetFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Name&gt;DefaultTAConfigSet&lt;/Name&gt;
+  &lt;Groups&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;OnlineLearning&lt;/Name&gt;
+      &lt;Objects /&gt;
+      &lt;Properties&gt;
+        &lt;ConfigSetProperty&gt;
+          &lt;Name&gt;Path&lt;/Name&gt;
+          &lt;Value&gt;C:\ProgramData\Kofax Transformation\OnlineLearning\project&lt;/Value&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/ConfigSetProperty&gt;
+      &lt;/Properties&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;Dictionaries&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;Currencies&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\UBS\Dict&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;currencies2iso&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\UBS\Dict&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+    &lt;ConfigSetGroup&gt;
+      &lt;Name&gt;LocalFuzzyDatabases&lt;/Name&gt;
+      &lt;Objects&gt;
+        &lt;ConfigSetObject&gt;
+          &lt;Name&gt;Customers&lt;/Name&gt;
+          &lt;Properties&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;ImportFilePath&lt;/Name&gt;
+              &lt;Value&gt;C:\UBS\Dict&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;UseWindowsAuthentication&lt;/Name&gt;
+              &lt;Value&gt;1&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;User&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;EncryptedPassword&lt;/Name&gt;
+              &lt;Value /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+            &lt;ConfigSetProperty&gt;
+              &lt;Name&gt;Password&lt;/Name&gt;
+              &lt;Value&gt;********&lt;/Value&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+            &lt;/ConfigSetProperty&gt;
+          &lt;/Properties&gt;
+        &lt;/ConfigSetObject&gt;
+      &lt;/Objects&gt;
+      &lt;Properties /&gt;
+    &lt;/ConfigSetGroup&gt;
+  &lt;/Groups&gt;
+&lt;/ConfigSetFile&gt;</ConfigurationSet>
+    <IsReadOnly>false</IsReadOnly>
+    <DoUpgrade>false</DoUpgrade>
+    <CustomVersion>0</CustomVersion>
+    <IsLimitedToOnlineLearning>false</IsLimitedToOnlineLearning>
+  </ProjectInfo>
+</ArrayOfProjectInfo>

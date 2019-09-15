@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfClassificationGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClassificationGroup>
+    <Identity>
+      <Id>38789512BB614390B81AF9707AF0B56D</Id>
+      <Version>8</Version>
+      <Name>UBS POC</Name>
+    </Identity>
+    <Name>UBS POC</Name>
+    <Description />
+    <Status>Released</Status>
+    <IsShared>true</IsShared>
+    <Category>
+      <Id>C2C47012910F4DC395EDAB69FA22656D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name>UBS POC</Name>
+    </Category>
+    <DocumentGroups>
+      <DocumentGroupIdentity>
+        <Id>38789512BB614390B81AF9707AF0B56D</Id>
+        <Version>8</Version>
+        <Name>UBS POC</Name>
+      </DocumentGroupIdentity>
+    </DocumentGroups>
+    <LastModifiedDate>2018-11-12T15:23:33.127</LastModifiedDate>
+    <LastModifiedUser>
+      <Id>29F17835C57F4E8C82633062745A977D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <ResourceType>Worker</ResourceType>
+      <EmailAddress />
+      <UserId />
+    </LastModifiedUser>
+    <LockedByModule>None</LockedByModule>
+    <ClassificationOnlineLearningEnabled>false</ClassificationOnlineLearningEnabled>
+    <ClassificationMaxDocCount>2000</ClassificationMaxDocCount>
+    <ClassificationOnlineLearningFolderId>07996CB340CF4B74B7EDA94B00189A0B</ClassificationOnlineLearningFolderId>
+    <ResourceAccessTokens>
+      <ResourceAccess>
+        <ResourceIdentity>
+          <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>Everyone</Name>
+          <ResourceType>GroupOfWorkers</ResourceType>
+          <EmailAddress />
+          <UserId />
+        </ResourceIdentity>
+        <AccessType>MaintenanceAccess</AccessType>
+        <PermissionType>FullControl</PermissionType>
+      </ResourceAccess>
+    </ResourceAccessTokens>
+    <ResourcePermissionType>NoAccess</ResourcePermissionType>
+  </ClassificationGroup>
+</ArrayOfClassificationGroup>

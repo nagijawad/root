@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfDocumentGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DocumentGroup>
+    <Identity>
+      <Id>38789512BB614390B81AF9707AF0B56D</Id>
+      <Version>8</Version>
+      <Name>UBS POC</Name>
+    </Identity>
+    <Name>UBS POC</Name>
+    <Description />
+    <Status>Released</Status>
+    <IsShared>true</IsShared>
+    <Category>
+      <Id>C2C47012910F4DC395EDAB69FA22656D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Name>UBS POC</Name>
+    </Category>
+    <DocumentTypes>
+      <DocumentType>
+        <Identity>
+          <Id>3E438CA6A9F311E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>Document</Name>
+        </Identity>
+        <Name>Document</Name>
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups>
+          <FieldGroup>
+            <Identity>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Document Fields</Name>
+            <Fields />
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>false</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+        </FieldGroups>
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <ParentDocumentType>
+          <Id>A0FCD076F11445DFBEABC35EC93E63DB</Id>
+          <Version>8</Version>
+          <Name />
+        </ParentDocumentType>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <Forms />
+        <AvailableForManualClassification>false</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>true</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+          <ProcessIdentity>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+            <Name />
+          </ProcessIdentity>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+      <DocumentType>
+        <Identity>
+          <Id>6B6D36F0A9F411E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>Structured</Name>
+        </Identity>
+        <Name>Structured</Name>
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups>
+          <FieldGroup>
+            <Identity>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Document Fields</Name>
+            <Fields />
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>true</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+        </FieldGroups>
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <ParentDocumentType>
+          <Id>3E438CA6A9F311E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name />
+        </ParentDocumentType>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <Forms>
+          <ScanForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </ScanForm>
+          <ValidationForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </ValidationForm>
+          <VerificationForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </VerificationForm>
+          <DocumentReviewForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </DocumentReviewForm>
+        </Forms>
+        <AvailableForManualClassification>false</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+          <ProcessIdentity>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+            <Name />
+          </ProcessIdentity>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+      <DocumentType>
+        <Identity>
+          <Id>705BA4F8A9F311E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>Payment</Name>
+        </Identity>
+        <Name>Payment</Name>
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups>
+          <FieldGroup>
+            <Identity>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Document Fields</Name>
+            <Fields />
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>true</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+          <FieldGroup>
+            <Identity>
+              <Id>F034467DAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Payment</Name>
+            <Fields>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>F03446BDAA0811E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>Amount</Name>
+                <DisplayName>Amount</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>true</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Payment</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>F835BD45AA0811E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>Currency</Name>
+                <DisplayName>Currency</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>true</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Payment</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>F835BE0DAA0811E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>IBAN</Name>
+                <DisplayName>IBAN</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>true</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Payment</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>FF351236AA0811E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>PaymentReason</Name>
+                <DisplayName>PaymentReason</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>true</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Payment</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>0AAD7386AA0911E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>ClientName</Name>
+                <DisplayName>ClientName</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>true</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Payment</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+            </Fields>
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>false</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+        </FieldGroups>
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <ParentDocumentType>
+          <Id>72DABF4AA9F411E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>Unstructured</Name>
+        </ParentDocumentType>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <Forms>
+          <ScanForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </ScanForm>
+          <ValidationForm>
+            <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+            <AutomaticallyPopulate>false</AutomaticallyPopulate>
+            <Name>Payment_Validation</Name>
+            <Version>0</Version>
+          </ValidationForm>
+          <VerificationForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </VerificationForm>
+          <DocumentReviewForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </DocumentReviewForm>
+        </Forms>
+        <AvailableForManualClassification>true</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+          <ProcessIdentity>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+            <Name />
+          </ProcessIdentity>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+      <DocumentType>
+        <Identity>
+          <Id>72DABF4AA9F411E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>Unstructured</Name>
+        </Identity>
+        <Name>Unstructured</Name>
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups>
+          <FieldGroup>
+            <Identity>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Document Fields</Name>
+            <Fields />
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>true</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+        </FieldGroups>
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <ParentDocumentType>
+          <Id>3E438CA6A9F311E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name />
+        </ParentDocumentType>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <Forms />
+        <AvailableForManualClassification>false</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+          <ProcessIdentity>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+            <Name />
+          </ProcessIdentity>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+      <DocumentType>
+        <Identity>
+          <Id>A0FCD076F11445DFBEABC35EC93E63DB</Id>
+          <Version>8</Version>
+          <Name />
+        </Identity>
+        <Name />
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups />
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <Forms>
+          <ScanForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </ScanForm>
+          <ValidationForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </ValidationForm>
+          <VerificationForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </VerificationForm>
+          <DocumentReviewForm>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+          </DocumentReviewForm>
+        </Forms>
+        <AvailableForManualClassification>true</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+          <ProcessIdentity>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Version>0</Version>
+            <Name />
+          </ProcessIdentity>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+      <DocumentType>
+        <Identity>
+          <Id>C8C8996DA9F411E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name>AccountMaintenance</Name>
+        </Identity>
+        <Name>AccountMaintenance</Name>
+        <Description />
+        <Status>Released</Status>
+        <FieldGroups>
+          <FieldGroup>
+            <Identity>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+            </Identity>
+            <Name>Document Fields</Name>
+            <Fields />
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>true</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+          <FieldGroup>
+            <Identity>
+              <Id>C64E1EDAAAB911E896960050562A8A63</Id>
+            </Identity>
+            <Name>Customer</Name>
+            <Fields>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>C64E1FD2AAB911E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>LastName</Name>
+                <DisplayName>LastName</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Customer</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>CD647930AAB911E896960050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>FirstName</Name>
+                <DisplayName>FirstName</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Customer</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+              <CaptureField xsi:type="SimpleField">
+                <Identity>
+                  <Id>58978F98B65D11E896A20050562A8A63</Id>
+                  <Name />
+                </Identity>
+                <Name>BankingRelationship</Name>
+                <DisplayName>BankingRelationship</DisplayName>
+                <Description />
+                <FieldType>Text</FieldType>
+                <Validators />
+                <Verification>
+                  <IsVerificationDisplayField>false</IsVerificationDisplayField>
+                  <VerificationMode>Confirm</VerificationMode>
+                  <CanChangeFieldValue>true</CanChangeFieldValue>
+                  <ShowFieldValueIfNoMatch>false</ShowFieldValueIfNoMatch>
+                </Verification>
+                <IsInherited>false</IsInherited>
+                <RequireManualFieldConfirmation>false</RequireManualFieldConfirmation>
+                <AlwaysValid>false</AlwaysValid>
+                <IsOverridden>false</IsOverridden>
+                <IsFormatterOverridden>false</IsFormatterOverridden>
+                <MonitorForAutomaticOnlineLearning>false</MonitorForAutomaticOnlineLearning>
+                <Editable>false</Editable>
+                <IsOptional>false</IsOptional>
+                <FormatterInputs />
+                <FieldGroupName>Customer</FieldGroupName>
+                <FieldGroupId />
+                <ExcludeFromAnalytics>false</ExcludeFromAnalytics>
+                <MaskValueInAnalytics>false</MaskValueInAnalytics>
+                <MaskImageForHiddenField>false</MaskImageForHiddenField>
+                <ChoiceItemsSource />
+                <Lookup />
+              </CaptureField>
+            </Fields>
+            <ResourceACL>
+              <ResourceIdentity>
+                <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+                <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                <Name>Everyone</Name>
+                <ResourceType>Worker</ResourceType>
+                <EmailAddress />
+                <UserId />
+              </ResourceIdentity>
+            </ResourceACL>
+            <ImageRedactionZones />
+            <IsInherited>false</IsInherited>
+            <MaskImageForHiddenFields>false</MaskImageForHiddenFields>
+          </FieldGroup>
+        </FieldGroups>
+        <FieldValidators />
+        <DocumentTypeValidator>
+          <Identity>
+            <Id />
+            <Name />
+          </Identity>
+          <DocumentStandardValidator>
+            <Identity>
+              <Id />
+              <Name />
+            </Identity>
+            <NumberOfPages>0</NumberOfPages>
+            <PageCountLevel>AtLeast</PageCountLevel>
+          </DocumentStandardValidator>
+          <DocumentValidators />
+        </DocumentTypeValidator>
+        <ParentDocumentType>
+          <Id>6B6D36F0A9F411E896960050562A8A63</Id>
+          <Version>8</Version>
+          <Name />
+        </ParentDocumentType>
+        <HasStandardValidator>false</HasStandardValidator>
+        <PdfSettings>
+          <Title />
+          <SkipFirstPage>false</SkipFirstPage>
+          <Subject />
+          <Author />
+          <Keywords />
+          <Application />
+          <Producer />
+        </PdfSettings>
+        <AutomaticOnlineLearningEnabled>false</AutomaticOnlineLearningEnabled>
+        <AvailableForManualClassification>true</AvailableForManualClassification>
+        <TableFieldExportDelimiter>;</TableFieldExportDelimiter>
+        <IsTemplateImageOverriden>false</IsTemplateImageOverriden>
+        <MonitorForClassificationOnlineLearning>false</MonitorForClassificationOnlineLearning>
+        <PostValidationHandler>
+          <IsPostValidationHandlingEnabled>false</IsPostValidationHandlingEnabled>
+        </PostValidationHandler>
+        <IsPartial>false</IsPartial>
+      </DocumentType>
+    </DocumentTypes>
+    <LastModifiedDate>2018-11-12T15:23:33.127</LastModifiedDate>
+    <LastModifiedUser>
+      <Id>29F17835C57F4E8C82633062745A977D</Id>
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <ResourceType>Worker</ResourceType>
+      <EmailAddress />
+      <UserId />
+    </LastModifiedUser>
+    <LockedByModule>None</LockedByModule>
+    <RootDocumentType>
+      <Id>A0FCD076F11445DFBEABC35EC93E63DB</Id>
+      <Version>8</Version>
+      <Name />
+    </RootDocumentType>
+    <IsOnlineLearningEnabled>true</IsOnlineLearningEnabled>
+    <OnlineLearningSettings>
+      <OnlineLearningMaxNewSamples>2000</OnlineLearningMaxNewSamples>
+      <IsAutomaticOnlineLearningEnabled>true</IsAutomaticOnlineLearningEnabled>
+      <OnlineLearningFolderId>07996CB340CF4B74B7EDA94B00189A0B</OnlineLearningFolderId>
+    </OnlineLearningSettings>
+    <FuzzyDatabases>
+      <FuzzyDatabase>
+        <Identity>
+          <Name>Customers</Name>
+          <DisplayName>Customers</DisplayName>
+        </Identity>
+        <Host>
+          <HostName />
+          <Credentials />
+        </Host>
+        <Port>0</Port>
+        <Mode>DBAny</Mode>
+        <Fields>
+          <FuzzyDatabaseField>
+            <Name>Name</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+          <FuzzyDatabaseField>
+            <Name>Address</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+          <FuzzyDatabaseField>
+            <Name>ZIP</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+          <FuzzyDatabaseField>
+            <Name>City</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+          <FuzzyDatabaseField>
+            <Name>Subsidiary</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+          <FuzzyDatabaseField>
+            <Name>Account Number</Name>
+            <Hidden>false</Hidden>
+            <IsFilterable>false</IsFilterable>
+          </FuzzyDatabaseField>
+        </Fields>
+        <FuzzyDatabaseType>Local</FuzzyDatabaseType>
+        <DelimiterCharacters>;</DelimiterCharacters>
+        <RemovedCharacters>.'"!</RemovedCharacters>
+        <TabAsDelimiter>false</TabAsDelimiter>
+        <SubfieldDelimiterCharacters>-, </SubfieldDelimiterCharacters>
+        <IgnoreCase>true</IgnoreCase>
+        <IsFilterable>false</IsFilterable>
+        <SubstitutionPairs />
+      </FuzzyDatabase>
+    </FuzzyDatabases>
+    <ResourceAccessTokens>
+      <ResourceAccess>
+        <ResourceIdentity>
+          <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+          <AutomaticallyPopulate>true</AutomaticallyPopulate>
+          <Name>Everyone</Name>
+          <ResourceType>GroupOfWorkers</ResourceType>
+          <EmailAddress />
+          <UserId />
+        </ResourceIdentity>
+        <AccessType>MaintenanceAccess</AccessType>
+        <PermissionType>FullControl</PermissionType>
+      </ResourceAccess>
+    </ResourceAccessTokens>
+    <ResourcePermissionType>FullControl</ResourcePermissionType>
+  </DocumentGroup>
+</ArrayOfDocumentGroup>

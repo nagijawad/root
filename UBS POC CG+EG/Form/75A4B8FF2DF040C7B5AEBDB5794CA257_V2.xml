@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DocumentForm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DBVersion>7.500000</DBVersion>
+  <FormType>DocumentValidation</FormType>
+  <FormIdentity>
+    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+    <AutomaticallyPopulate>false</AutomaticallyPopulate>
+    <Name>Payment_Validation</Name>
+    <Version>2</Version>
+  </FormIdentity>
+  <Title>Payment_Validation</Title>
+  <Width>1300</Width>
+  <Height>745</Height>
+  <LastModifiedDateTime>2018-08-31T00:39:55.31</LastModifiedDateTime>
+  <LastModifiedByUser>29F17835C57F4E8C82633062745A977D</LastModifiedByUser>
+  <Columns>
+    <FormColumn>
+      <DisplayIndex>0</DisplayIndex>
+      <Width>1296</Width>
+      <PercentageWidth>100</PercentageWidth>
+      <Height>420</Height>
+      <Rows>
+        <Row>
+          <Width>1292</Width>
+          <Height>25</Height>
+          <DisplayIndex>0</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>9AF543CBAA0811E896960050562A8A63</Id>
+              <Name>Cell1</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>1292</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>25</Height>
+              <MinHeight>25</MinHeight>
+              <Orientation>1</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>#FF99bce8</BorderColor>
+              <CellControls />
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Theme</CellStyleSource>
+              <Alignment>None</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+          </Cells>
+        </Row>
+        <Row>
+          <Width>1292</Width>
+          <Height>180</Height>
+          <DisplayIndex>1</DisplayIndex>
+          <Cells>
+            <Cell>
+              <Id>F034467DAA0811E896960050562A8A63</Id>
+              <Name>Cell2</Name>
+              <Collapsible>false</Collapsible>
+              <Collapsed>false</Collapsed>
+              <Visible>true</Visible>
+              <DisplayIndex>0</DisplayIndex>
+              <Width>1292</Width>
+              <PercentageWidth>100</PercentageWidth>
+              <CellLayout>1</CellLayout>
+              <Height>180</Height>
+              <MinHeight>25</MinHeight>
+              <Orientation>1</Orientation>
+              <Border>0</Border>
+              <BackgroundColor>Transparent</BackgroundColor>
+              <BorderColor>#FF99bce8</BorderColor>
+              <CellControls>
+                <FormControl xsi:type="TextFieldCaptureControl">
+                  <ControlType>CaptureTextField</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>TextChanged</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>33134B55AD574CFF95DA19AADA999265</Id>
+                            <Name>AmountConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>497B1A88C3984C5AB6C82E01CA1B8DA2</Id>
+                            <Name>AmountFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>Payment_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>F03446BDAA0811E896960050562A8A63</Id>
+                  <Name>Amount</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>1061.2</Width>
+                  <PercentageWidth>90</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>1</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>Payment_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>054007D6A4A04D40A4D973D52CCB8F11</Id>
+                    <Name>labelAmount</Name>
+                    <Margin>
+                      <Top>5</Top>
+                      <Left>5</Left>
+                      <Right>5</Right>
+                      <Bottom>5</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>true</ExpandToFit>
+                    <Text>Amount</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <Text />
+                  <FieldType>String</FieldType>
+                  <MaxLength>0</MaxLength>
+                  <MinLength>0</MinLength>
+                  <Format>
+                    <Identity />
+                  </Format>
+                  <Multiline>false</Multiline>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                    <CssClass />
+                  </Font>
+                  <TextAlignment>Left</TextAlignment>
+                  <AllowDecimals>false</AllowDecimals>
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ReadOnly>false</ReadOnly>
+                  <IsValid>false</IsValid>
+                  <FieldName>Amount</FieldName>
+                  <AutoComplete>false</AutoComplete>
+                  <IgnoreCase>false</IgnoreCase>
+                  <ShowMiniViewer>true</ShowMiniViewer>
+                  <MiniViewerHeight>30</MiniViewerHeight>
+                  <MiniViewerWidth>250</MiniViewerWidth>
+                  <MiniViewerPosition>Left</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                  <PreserveLineBreaks>false</PreserveLineBreaks>
+                </FormControl>
+                <FormControl xsi:type="TextFieldCaptureControl">
+                  <ControlType>CaptureTextField</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>TextChanged</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>F4980C50E18140458B3524403EC18378</Id>
+                            <Name>CurrencyConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>883022C016E64627A684893D9D418A66</Id>
+                            <Name>CurrencyFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>Payment_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>F835BD45AA0811E896960050562A8A63</Id>
+                  <Name>Currency</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>1061.2</Width>
+                  <PercentageWidth>90</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>2</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>Payment_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>4E5AC05B609B4864ABC17192572B514E</Id>
+                    <Name>labelCurrency</Name>
+                    <Margin>
+                      <Top>5</Top>
+                      <Left>5</Left>
+                      <Right>5</Right>
+                      <Bottom>5</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>true</ExpandToFit>
+                    <Text>Currency</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <Text />
+                  <FieldType>String</FieldType>
+                  <MaxLength>0</MaxLength>
+                  <MinLength>0</MinLength>
+                  <Format>
+                    <Identity />
+                  </Format>
+                  <Multiline>false</Multiline>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                  </Font>
+                  <TextAlignment>Left</TextAlignment>
+                  <AllowDecimals>false</AllowDecimals>
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ReadOnly>false</ReadOnly>
+                  <IsValid>false</IsValid>
+                  <FieldName>Currency</FieldName>
+                  <AutoComplete>false</AutoComplete>
+                  <IgnoreCase>false</IgnoreCase>
+                  <ShowMiniViewer>false</ShowMiniViewer>
+                  <MiniViewerHeight>40</MiniViewerHeight>
+                  <MiniViewerWidth>150</MiniViewerWidth>
+                  <MiniViewerPosition>Right</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                  <PreserveLineBreaks>false</PreserveLineBreaks>
+                </FormControl>
+                <FormControl xsi:type="TextFieldCaptureControl">
+                  <ControlType>CaptureTextField</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>TextChanged</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7E4CB53D976A484DA94D57859ACF5021</Id>
+                            <Name>IBANConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>59FB87EAB44B453EA4CD29EF4EE4C479</Id>
+                            <Name>IBANFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>Payment_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>F835BE0DAA0811E896960050562A8A63</Id>
+                  <Name>IBAN</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>1061.2</Width>
+                  <PercentageWidth>90</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>3</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>Payment_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>2EDB635F28944EA09F752C1D06B236DC</Id>
+                    <Name>labelIBAN</Name>
+                    <Margin>
+                      <Top>5</Top>
+                      <Left>5</Left>
+                      <Right>5</Right>
+                      <Bottom>5</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>true</ExpandToFit>
+                    <Text>IBAN</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <Text />
+                  <FieldType>String</FieldType>
+                  <MaxLength>0</MaxLength>
+                  <MinLength>0</MinLength>
+                  <Format>
+                    <Identity />
+                  </Format>
+                  <Multiline>false</Multiline>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                  </Font>
+                  <TextAlignment>Left</TextAlignment>
+                  <AllowDecimals>false</AllowDecimals>
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ReadOnly>false</ReadOnly>
+                  <IsValid>false</IsValid>
+                  <FieldName>IBAN</FieldName>
+                  <AutoComplete>false</AutoComplete>
+                  <IgnoreCase>false</IgnoreCase>
+                  <ShowMiniViewer>false</ShowMiniViewer>
+                  <MiniViewerHeight>40</MiniViewerHeight>
+                  <MiniViewerWidth>150</MiniViewerWidth>
+                  <MiniViewerPosition>Right</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                  <PreserveLineBreaks>false</PreserveLineBreaks>
+                </FormControl>
+                <FormControl xsi:type="TextFieldCaptureControl">
+                  <ControlType>CaptureTextField</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>TextChanged</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>5BB9C7F441B948C8BFD62B6CFCF6C568</Id>
+                            <Name>PaymentReasonConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>7A0FDF8D7EE04AF49098FF62DF5B6BE3</Id>
+                            <Name>PaymentReasonFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>Payment_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>FF351236AA0811E896960050562A8A63</Id>
+                  <Name>PaymentReason</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>1061.2</Width>
+                  <PercentageWidth>90</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>4</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>Payment_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>F11A5B65E079424DA71EE5B56F46FB70</Id>
+                    <Name>labelPaymentReason</Name>
+                    <Margin>
+                      <Top>5</Top>
+                      <Left>5</Left>
+                      <Right>5</Right>
+                      <Bottom>5</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>true</ExpandToFit>
+                    <Text>PaymentReason</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <Text />
+                  <FieldType>String</FieldType>
+                  <MaxLength>0</MaxLength>
+                  <MinLength>0</MinLength>
+                  <Format>
+                    <Identity />
+                  </Format>
+                  <Multiline>false</Multiline>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                  </Font>
+                  <TextAlignment>Left</TextAlignment>
+                  <AllowDecimals>false</AllowDecimals>
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ReadOnly>false</ReadOnly>
+                  <IsValid>false</IsValid>
+                  <FieldName>PaymentReason</FieldName>
+                  <AutoComplete>false</AutoComplete>
+                  <IgnoreCase>false</IgnoreCase>
+                  <ShowMiniViewer>false</ShowMiniViewer>
+                  <MiniViewerHeight>40</MiniViewerHeight>
+                  <MiniViewerWidth>150</MiniViewerWidth>
+                  <MiniViewerPosition>Right</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                  <PreserveLineBreaks>false</PreserveLineBreaks>
+                </FormControl>
+                <FormControl xsi:type="TextFieldCaptureControl">
+                  <ControlType>CaptureTextField</ControlType>
+                  <FormControlEvents>
+                    <FormEvent>
+                      <EventType>TextChanged</EventType>
+                      <Actions />
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldConfirmed</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>D9B9910895424CD3B5EEF7E49E5CF9B4</Id>
+                            <Name>ClientNameConfirmFieldAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                    <FormEvent>
+                      <EventType>OnFieldForcedValid</EventType>
+                      <Actions>
+                        <FormActionSummary>
+                          <Identity>
+                            <Id>CF79E2B10464402788B56C7842BCB4B9</Id>
+                            <Name>ClientNameFieldForcedValidAction</Name>
+                            <ActionType>DotNet</ActionType>
+                          </Identity>
+                          <Disabled>false</Disabled>
+                        </FormActionSummary>
+                      </Actions>
+                    </FormEvent>
+                  </FormControlEvents>
+                  <FormIdentity>
+                    <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                    <Name>Payment_Validation</Name>
+                    <Version>0</Version>
+                  </FormIdentity>
+                  <Id>0AAD7386AA0911E896960050562A8A63</Id>
+                  <Name>ClientName</Name>
+                  <Margin>
+                    <Top>2</Top>
+                    <Left>2</Left>
+                    <Right>2</Right>
+                    <Bottom>2</Bottom>
+                  </Margin>
+                  <Width>1061.2</Width>
+                  <PercentageWidth>90</PercentageWidth>
+                  <Height>22</Height>
+                  <Enabled>true</Enabled>
+                  <TabIndex>5</TabIndex>
+                  <DisplayIndex>1</DisplayIndex>
+                  <State>Optional</State>
+                  <Style>Default</Style>
+                  <StyleSource>Theme</StyleSource>
+                  <IsAutoGenerated>false</IsAutoGenerated>
+                  <CannotDelete>false</CannotDelete>
+                  <ControlAlignment>Left</ControlAlignment>
+                  <UsePercentageHeight>false</UsePercentageHeight>
+                  <PercentageHeight>5</PercentageHeight>
+                  <ControlLayout>1</ControlLayout>
+                  <ExpandToFit>true</ExpandToFit>
+                  <Label>
+                    <ControlType>Label</ControlType>
+                    <FormControlEvents />
+                    <FormIdentity>
+                      <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+                      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+                      <Name>Payment_Validation</Name>
+                      <Version>0</Version>
+                    </FormIdentity>
+                    <Id>43DE34F7E12C4D3C8875C2AC41CB9E39</Id>
+                    <Name>labelClientName</Name>
+                    <Margin>
+                      <Top>5</Top>
+                      <Left>5</Left>
+                      <Right>5</Right>
+                      <Bottom>5</Bottom>
+                    </Margin>
+                    <Width>100</Width>
+                    <PercentageWidth>100</PercentageWidth>
+                    <Height>22</Height>
+                    <Enabled>true</Enabled>
+                    <TabIndex>0</TabIndex>
+                    <DisplayIndex>1</DisplayIndex>
+                    <State>Optional</State>
+                    <Style>Default</Style>
+                    <StyleSource>Theme</StyleSource>
+                    <IsAutoGenerated>false</IsAutoGenerated>
+                    <CannotDelete>false</CannotDelete>
+                    <ControlAlignment>None</ControlAlignment>
+                    <UsePercentageHeight>false</UsePercentageHeight>
+                    <PercentageHeight>5</PercentageHeight>
+                    <ControlLayout>0</ControlLayout>
+                    <ExpandToFit>true</ExpandToFit>
+                    <Text>ClientName</Text>
+                    <TextAlignment>Left</TextAlignment>
+                    <Font>
+                      <Bold>false</Bold>
+                      <Italic>false</Italic>
+                      <Name>Arial</Name>
+                      <Overline>false</Overline>
+                      <Size>11</Size>
+                      <Strikeout>false</Strikeout>
+                      <Underline>false</Underline>
+                      <Color>#FF000000</Color>
+                    </Font>
+                    <LabelType>Basic</LabelType>
+                    <HeadingSize>0</HeadingSize>
+                    <DisplayDateWithoutTime>false</DisplayDateWithoutTime>
+                  </Label>
+                  <ShowLabel>true</ShowLabel>
+                  <LabelPosition>Left</LabelPosition>
+                  <Text />
+                  <FieldType>String</FieldType>
+                  <MaxLength>0</MaxLength>
+                  <MinLength>0</MinLength>
+                  <Format>
+                    <Identity />
+                  </Format>
+                  <Multiline>false</Multiline>
+                  <Font>
+                    <Bold>false</Bold>
+                    <Italic>false</Italic>
+                    <Name>Arial</Name>
+                    <Overline>false</Overline>
+                    <Size>11</Size>
+                    <Strikeout>false</Strikeout>
+                    <Underline>false</Underline>
+                    <Color>#FF000000</Color>
+                  </Font>
+                  <TextAlignment>Left</TextAlignment>
+                  <AllowDecimals>false</AllowDecimals>
+                  <DecimalPrecision>0</DecimalPrecision>
+                  <ReadOnly>false</ReadOnly>
+                  <IsValid>false</IsValid>
+                  <FieldName>ClientName</FieldName>
+                  <AutoComplete>false</AutoComplete>
+                  <IgnoreCase>false</IgnoreCase>
+                  <ShowMiniViewer>false</ShowMiniViewer>
+                  <MiniViewerHeight>40</MiniViewerHeight>
+                  <MiniViewerWidth>150</MiniViewerWidth>
+                  <MiniViewerPosition>Right</MiniViewerPosition>
+                  <GeneralFormType>Document</GeneralFormType>
+                  <PreserveLineBreaks>false</PreserveLineBreaks>
+                </FormControl>
+              </CellControls>
+              <BackgroundSettings>
+                <UseBackgroundImage>false</UseBackgroundImage>
+                <LoadImageFromStore>false</LoadImageFromStore>
+                <ResizeImageToFit>false</ResizeImageToFit>
+              </BackgroundSettings>
+              <Margin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Margin>
+              <Padding>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+              <TextAlignment>Left</TextAlignment>
+              <Font>
+                <Bold>false</Bold>
+                <Italic>false</Italic>
+                <Overline>false</Overline>
+                <Size>0</Size>
+                <Strikeout>false</Strikeout>
+                <Underline>false</Underline>
+              </Font>
+              <StyleSource>Theme</StyleSource>
+              <CellStyleSource>Theme</CellStyleSource>
+              <Alignment>None</Alignment>
+              <BorderMargin>
+                <Top>0</Top>
+                <Left>0</Left>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </BorderMargin>
+            </Cell>
+          </Cells>
+        </Row>
+      </Rows>
+      <BackgroundColor>#FFFFFFFF</BackgroundColor>
+    </FormColumn>
+  </Columns>
+  <InitializationVars />
+  <Actions>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>33134B55AD574CFF95DA19AADA999265</Id>
+        <Name>AmountConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="Amount.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>497B1A88C3984C5AB6C82E01CA1B8DA2</Id>
+        <Name>AmountFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="Amount.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="Amount.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>F4980C50E18140458B3524403EC18378</Id>
+        <Name>CurrencyConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="Currency.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>883022C016E64627A684893D9D418A66</Id>
+        <Name>CurrencyFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="Currency.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="Currency.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>7E4CB53D976A484DA94D57859ACF5021</Id>
+        <Name>IBANConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="IBAN.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>59FB87EAB44B453EA4CD29EF4EE4C479</Id>
+        <Name>IBANFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="IBAN.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="IBAN.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>5BB9C7F441B948C8BFD62B6CFCF6C568</Id>
+        <Name>PaymentReasonConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="PaymentReason.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>7A0FDF8D7EE04AF49098FF62DF5B6BE3</Id>
+        <Name>PaymentReasonFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="PaymentReason.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="PaymentReason.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>D9B9910895424CD3B5EEF7E49E5CF9B4</Id>
+        <Name>ClientNameConfirmFieldAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ConfirmField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="ClientName.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>CF79E2B10464402788B56C7842BCB4B9</Id>
+        <Name>ClientNameFieldForcedValidAction</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>ForceValidField2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="form" type="System.String" value="" field="ClientName.fieldEditOperation.sessionId" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.id" datatype="System.String" value="" name="id" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.isFolder" datatype="System.Boolean" value="" name="isFolder" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.fieldIdentity" datatype="System.Object" value="" name="fieldIdentity" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.field" datatype="System.Object" value="" name="baseField" selection="false" />
+          <Parameter direction="in" source="form" field="ClientName.fieldEditOperation.changes" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>false</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+    <FormAction xsi:type="DotNetAction">
+      <FormIdentity>
+        <Id>75A4B8FF2DF040C7B5AEBDB5794CA257</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Payment_Validation</Name>
+        <Version>0</Version>
+      </FormIdentity>
+      <Identity>
+        <Id>733FFA0794D34356A608455D1FEE7627</Id>
+        <Name>SaveChanges</Name>
+        <ActionType>DotNet</ActionType>
+      </Identity>
+      <Method>
+        <Name>SaveChanges2</Name>
+        <ClassName>TotalAgility.Sdk.CaptureRuntimeService</ClassName>
+        <AssemblyName>TotalAgility.Sdk.dll</AssemblyName>
+        <AssemblyLoadType>File</AssemblyLoadType>
+        <Parameters>
+          <Parameter direction="in" source="session" field="SESSION_ID" datatype="System.String" value="" name="sessionId" selection="false" />
+          <Parameter direction="in" source="" field="" datatype="Agility.Sdk.Model.Capture.CommonInfo" value="" name="commonInfo" selection="false">
+            <member name="BatchId" source="inlinescript" type="System.String" value="" field="CEBPM.controller.AppConfig.getMainView().sessionID" selection="false" index="0" />
+            <member name="ActivityType" source="inline" type="System.Int16" value="2" field="" selection="false" index="0" />
+          </Parameter>
+          <Parameter direction="in" source="inlinescript" field="CEBPM.controller.BatchData.getChanges()" datatype="System.Object" value="" name="changes" selection="false" />
+          <Parameter direction="ret" source="inlinescript" field="INLINESCRIPT" datatype="Kofax.CEBPM.ThinClient.DocumentServices.ValidationDataContainer" value="" name="Return Parameter" selection="false" />
+        </Parameters>
+        <AssemblyFilePath>TotalAgility.Sdk.dll</AssemblyFilePath>
+        <DupMethodNo>1</DupMethodNo>
+        <DupMethodNoSpecified>true</DupMethodNoSpecified>
+      </Method>
+      <Languages>
+        <EventLanguage>
+          <Id>Default</Id>
+          <Language>Default</Language>
+        </EventLanguage>
+      </Languages>
+      <Controls />
+      <FiringCondition />
+      <SingleActionBatch>false</SingleActionBatch>
+      <IsReadOnly>true</IsReadOnly>
+      <IsCapture>true</IsCapture>
+      <ReturnOutputsWithoutProcessing>true</ReturnOutputsWithoutProcessing>
+      <ExcludeFromVariablesDeployedForm>true</ExcludeFromVariablesDeployedForm>
+    </FormAction>
+  </Actions>
+  <FormVariables>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentTypeId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string">705BA4F8A9F311E896960050562A8A63</Value>
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>SelectedPageId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+    <FormVariable>
+      <Identity>
+        <Name>DocumentId</Name>
+      </Identity>
+      <VariableType xsi:type="xsd:string">String</VariableType>
+      <Value xsi:type="xsd:string" />
+    </FormVariable>
+  </FormVariables>
+  <CategoryId>C2C47012910F4DC395EDAB69FA22656D</CategoryId>
+  <UseHeader xsi:nil="true" />
+  <UseHorizontalNavigation xsi:nil="true" />
+  <UseVerticalNavigation xsi:nil="true" />
+  <StringMappingsCollection>
+    <StringMappingEntity>
+      <ControlID>75A4B8FF2DF040C7B5AEBDB5794CA257</ControlID>
+      <Property>formtitle</Property>
+      <StringId>18BE8A5550494C0BA46D849FAFB33788</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>9AF543CBAA0811E896960050562A8A63</ControlID>
+      <Property>titletext</Property>
+      <StringId>6B10FEDCB8CD4E08873978E6892D609B</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F034467DAA0811E896960050562A8A63</ControlID>
+      <Property>titletext</Property>
+      <StringId>CE17D87B7D894626AD3C1E2C7B93C9E4</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>054007D6A4A04D40A4D973D52CCB8F11</ControlID>
+      <Property>text</Property>
+      <StringId>8D638C7930D14AF081E8D6877A64991F</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>054007D6A4A04D40A4D973D52CCB8F11</ControlID>
+      <Property>tooltip</Property>
+      <StringId>9C426292C5414D228E45AC7FDB2DEB14</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F03446BDAA0811E896960050562A8A63</ControlID>
+      <Property>text</Property>
+      <StringId>91F4B84C9A8C480F9B5BA3E47AFD95D4</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F03446BDAA0811E896960050562A8A63</ControlID>
+      <Property>tooltip</Property>
+      <StringId>8836140584C545599023A8A9D3F40C93</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F03446BDAA0811E896960050562A8A63</ControlID>
+      <Property>errormessage</Property>
+      <StringId>0385BC8D037A47799EE00E04C5E0C95C</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F03446BDAA0811E896960050562A8A63</ControlID>
+      <Property>nullvalue</Property>
+      <StringId>E22FB21BB56849CEAF97C6A500200154</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>4E5AC05B609B4864ABC17192572B514E</ControlID>
+      <Property>text</Property>
+      <StringId>5DBB8EB06F6348E18BC14960FA76CE27</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>4E5AC05B609B4864ABC17192572B514E</ControlID>
+      <Property>tooltip</Property>
+      <StringId>A36D1539DE5E40C7973D875F0801D6AC</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BD45AA0811E896960050562A8A63</ControlID>
+      <Property>text</Property>
+      <StringId>AEC4C530C4664BE099CF8635A3FCB22D</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BD45AA0811E896960050562A8A63</ControlID>
+      <Property>tooltip</Property>
+      <StringId>2C04EB2043C1412D970F5B921D543A31</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BD45AA0811E896960050562A8A63</ControlID>
+      <Property>errormessage</Property>
+      <StringId>6C9097C41055462A89AF6B67CC513F4D</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BD45AA0811E896960050562A8A63</ControlID>
+      <Property>nullvalue</Property>
+      <StringId>C0E5D56E057D4F649E920535B64FBB2A</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2EDB635F28944EA09F752C1D06B236DC</ControlID>
+      <Property>text</Property>
+      <StringId>8FCF05BBDAE94A7EB32BBD5D7054E9E4</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>2EDB635F28944EA09F752C1D06B236DC</ControlID>
+      <Property>tooltip</Property>
+      <StringId>807041F2E66244F889104A7D3B43A620</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BE0DAA0811E896960050562A8A63</ControlID>
+      <Property>text</Property>
+      <StringId>5CE75F5A1F7B4A67A22CD37B817E3C44</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BE0DAA0811E896960050562A8A63</ControlID>
+      <Property>tooltip</Property>
+      <StringId>1B6273A03C444B4DB090A0300781A490</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BE0DAA0811E896960050562A8A63</ControlID>
+      <Property>errormessage</Property>
+      <StringId>37690ED6F74B4257ACAAE75AFE2802ED</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F835BE0DAA0811E896960050562A8A63</ControlID>
+      <Property>nullvalue</Property>
+      <StringId>C7DC7C79CE0640D989DCCD4397D7D5D1</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F11A5B65E079424DA71EE5B56F46FB70</ControlID>
+      <Property>text</Property>
+      <StringId>EF60408600ED47C8BF0B241BA228A00F</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>F11A5B65E079424DA71EE5B56F46FB70</ControlID>
+      <Property>tooltip</Property>
+      <StringId>9ED25F1745D34EA9B85E1D3F5E69EC8E</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF351236AA0811E896960050562A8A63</ControlID>
+      <Property>text</Property>
+      <StringId>D88334F744244FD7A45B11691C6AB0CF</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF351236AA0811E896960050562A8A63</ControlID>
+      <Property>tooltip</Property>
+      <StringId>0103AC1D189249E88443FE51C4D36E9B</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF351236AA0811E896960050562A8A63</ControlID>
+      <Property>errormessage</Property>
+      <StringId>F19D4210B3504E4C86D8BA3F6FF3BA00</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>FF351236AA0811E896960050562A8A63</ControlID>
+      <Property>nullvalue</Property>
+      <StringId>3A162950C2924615B8B13907745FAEBC</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>43DE34F7E12C4D3C8875C2AC41CB9E39</ControlID>
+      <Property>text</Property>
+      <StringId>035CDC028D514E87B53027B9422018F0</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>43DE34F7E12C4D3C8875C2AC41CB9E39</ControlID>
+      <Property>tooltip</Property>
+      <StringId>468C6C16C6154779A9F077157586E79B</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>0AAD7386AA0911E896960050562A8A63</ControlID>
+      <Property>text</Property>
+      <StringId>266424FF39714F47A8A689396A53296C</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>0AAD7386AA0911E896960050562A8A63</ControlID>
+      <Property>tooltip</Property>
+      <StringId>12F2FD294B2E48199E75865C24C22310</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>0AAD7386AA0911E896960050562A8A63</ControlID>
+      <Property>errormessage</Property>
+      <StringId>7543C03CDDE94858AEED62D9F610FD3A</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <ControlID>0AAD7386AA0911E896960050562A8A63</ControlID>
+      <Property>nullvalue</Property>
+      <StringId>0FDBF0B5694B45BBBC8C596A291C6058</StringId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>EBADAB81AD714BD88E2A98EC07A25B71</StringId>
+      <VarId>DocumentTypeId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>EC757C2201194213A1C106EAE212F428</StringId>
+      <VarId>SelectedPageId</VarId>
+    </StringMappingEntity>
+    <StringMappingEntity>
+      <StringId>3EB5B54D8FD8461B9181D4D6C8D92E52</StringId>
+      <VarId>DocumentId</VarId>
+    </StringMappingEntity>
+  </StringMappingsCollection>
+  <Language>base</Language>
+  <DisplayRules />
+  <CalculationRules />
+  <LockedBy>
+    <Id>29F17835C57F4E8C82633062745A977D</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+    <ResourceType>Worker</ResourceType>
+    <EmailAddress />
+    <UserId />
+  </LockedBy>
+  <RefreshInterval>0</RefreshInterval>
+  <BackgroundColor>#FFFFFFFF</BackgroundColor>
+  <ErrorLocation>Default</ErrorLocation>
+  <FormLayout>Flow</FormLayout>
+  <PercentageWidth>100</PercentageWidth>
+  <Status>Released</Status>
+  <ApplySecurityToken>false</ApplySecurityToken>
+  <AllowByDefault>true</AllowByDefault>
+  <Resources />
+  <FormEvents>
+    <FormEvent>
+      <EventType>Loaded</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>BeforeRender</EventType>
+      <Actions />
+    </FormEvent>
+    <FormEvent>
+      <EventType>AfterRender</EventType>
+      <Actions />
+    </FormEvent>
+  </FormEvents>
+  <IsThemePageColor>true</IsThemePageColor>
+  <ShouldTriggerOnLoad>true</ShouldTriggerOnLoad>
+  <AssociatedLabelWidth>100</AssociatedLabelWidth>
+  <UseViewport>false</UseViewport>
+  <ViewportSettings>
+    <UserScalable>false</UserScalable>
+  </ViewportSettings>
+  <BackgroundSettings>
+    <UseBackgroundImage>false</UseBackgroundImage>
+    <LoadImageFromStore>false</LoadImageFromStore>
+    <ResizeImageToFit>false</ResizeImageToFit>
+  </BackgroundSettings>
+  <FormAlign>Center</FormAlign>
+  <TouchEnabled>false</TouchEnabled>
+  <MobileFormProperties>
+    <ActionMenus />
+  </MobileFormProperties>
+  <NavigationView>
+    <ToolBars />
+    <Enabled>false</Enabled>
+  </NavigationView>
+  <DesignWidth>1300</DesignWidth>
+  <DesignHeight>200</DesignHeight>
+  <PrimaryForm>Desktop</PrimaryForm>
+  <AllowAnyone>true</AllowAnyone>
+  <ResourceAccessTokens>
+    <ResourceAccess>
+      <ResourceIdentity>
+        <Id>7DF43CCDF24611D2804B00104B71BD15</Id>
+        <AutomaticallyPopulate>true</AutomaticallyPopulate>
+        <Name>Everyone</Name>
+        <ResourceType>GroupOfWorkers</ResourceType>
+        <EmailAddress />
+        <UserId />
+      </ResourceIdentity>
+      <AccessType>MaintenanceAccess</AccessType>
+      <PermissionType>FullControl</PermissionType>
+    </ResourceAccess>
+  </ResourceAccessTokens>
+  <ResourcePermissionType>FullControl</ResourcePermissionType>
+  <RedirectConfirmation>false</RedirectConfirmation>
+  <RedirectOnLoadErrorForm>
+    <FormIdentity>
+      <Id />
+      <AutomaticallyPopulate>true</AutomaticallyPopulate>
+      <Version>0</Version>
+    </FormIdentity>
+    <RedirectOptions>Origin</RedirectOptions>
+  </RedirectOnLoadErrorForm>
+  <FormVariants />
+  <UseBrowserTabOrder>false</UseBrowserTabOrder>
+  <EnableColumnSplitting>false</EnableColumnSplitting>
+  <ShowColumnSplitter>false</ShowColumnSplitter>
+  <ExpandLastRowToFit>false</ExpandLastRowToFit>
+  <UseRelativeHeight>false</UseRelativeHeight>
+  <CaptureReferenceId>705BA4F8A9F311E896960050562A8A63</CaptureReferenceId>
+  <CaptureReferenceVersion>5</CaptureReferenceVersion>
+  <DocumentTypeIdentity>
+    <Id>705BA4F8A9F311E896960050562A8A63</Id>
+    <Version>5</Version>
+    <Name>Payment</Name>
+  </DocumentTypeIdentity>
+  <EnableTableAutoHeight>false</EnableTableAutoHeight>
+</DocumentForm>
